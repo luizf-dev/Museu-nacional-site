@@ -11,7 +11,71 @@
     <link rel="stylesheet" href="css/style.css">    
 </head>
 <body>
-    
+    <!--Inicio Container-->
+    <div id="container">
+        <!--Inicio Header-->
+        <header>
+            <div id="logo">
+                <h1><a href="/">Museu Nacional</a></h1>
+            </div>
+            <!--Inicio Menu Nav-->
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Exposições</a></li>
+                    <li><a href="/">Pesquisas</a></li>
+                    <li><a href="/">Acervos</a></li>
+                    <li><a href="/">Vídeos</a></li>
+                    <li><a href="/">Fotos</a></li>
+                    <li><a href="/">Contato</a></li>
+                </ul>
+            </nav>
+            <!--Fim Menu Nav-->
+        </header>
+        <!--Fim Header-->
+
+        <!--Inicio Conteudo-->
+        <div id="content">
+            <div id="content-left">
+                <section id="banner">
+                    <img src="img/museu.png" alt="">
+                </section>
+            </div>
+
+            <aside>
+                <section id="depoimento">
+                    <img src="img/depoimento.png" alt="">
+                </section>
+
+                <section id="visita">
+                    <h4>Visite o Museu</h4>
+                    <form action="#" method="post">
+                        <fieldset>
+                            <legend>Selecione a data</legend>
+                            <label for="data">Data: </label>
+                            <input class="campo" type="date" name="data" id="data" placeholder="dd/mm/aaaa" required><br>
+
+                            <label for="qtd">Qtd Pessoas: </label>
+                            <input class="campo" type="number" name="qtd" id="qtd" placeholder="1" required>
+                            
+                        </fieldset>
+                        <input class="button" type="submit" value="Vericar Disponibilidade">
+                    </form>
+                </section>
+
+                <section id="galeria">
+                    <h4>Galeria de Fotos</h4>
+                    <a href="#"><img src="img/imagem1.jpg" alt=""></a>
+                    <a href="#"><img src="img/imagem2.jpg" alt=""></a>
+                    <a href="#"><img src="img/imagem3.jpg" alt=""></a>
+                    <a href="#"><img src="img/imagem4.jpg" alt=""></a>
+                </section>
+            </aside>
+        </div>
+        <!--Fim Conteudo-->
+
+    </div>
+    <!--Fim Container-->
     
     
     <!--HTML5shiv-->
