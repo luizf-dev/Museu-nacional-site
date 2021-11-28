@@ -72,6 +72,7 @@ nav ul li a:hover{
 #content-left{
     width: 710px;
     float: left;
+    margin-bottom: 10px;
 }
 
 aside{
@@ -85,6 +86,14 @@ section#visita{
     background: #cdc8b1;
     padding: 10px 27px 27px 27px;
     margin: 10px 0;
+}
+
+h3{
+    color: #86521a;
+    font-size: 1.0em;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-align: center;    
 }
 
 h4{
@@ -161,4 +170,63 @@ section#galeria a{
     float: left;
     padding: 22px 17px;
     margin: 10px 0 0 20px;
+}
+
+/*Video, mapa, exposiçoes, história
+---------------------------*/
+
+article#video{
+    float: left;
+    width: 330px;
+}
+
+article#mapa{
+    float: left;
+    width: 330px;
+    margin-left: 50px;
+}
+
+#mapa iframe{
+    border: 1px solid #86521a;
+}
+
+article#exposicoes{
+    float: left;
+    width: 330px;
+    margin: 15px 0;
+    font-size: 1.2em;
+}
+
+article#exposicoes ul{
+    margin-left: -30px;
+}
+
+article#historia{
+    float: left;
+    width: 330px;
+    margin-left: 50px;
+    font-size: 1.2em;
+}
+
+/*Footer
+--------------------------*/
+
+footer{
+    height: 70px;
+    background: #1d1b15;
+    padding: 10px;
+    font-weight: 900;
+    clear: both;
+    text-shadow: 2px 1px 1px #000;
+}
+
+footer hr{
+    border: 1px solid #86521a;
+    width: 300px;
+}
+
+footer a{
+    display: block;
+    margin-left: 550px;
+
 }
